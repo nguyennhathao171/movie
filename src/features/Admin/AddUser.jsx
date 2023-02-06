@@ -111,7 +111,7 @@ const AddUser = () => {
               rules={[
                 {
                   type:"number",
-                  required: true,
+                  required: false,
                 },
               ]}
             >
