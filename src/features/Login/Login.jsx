@@ -73,8 +73,8 @@ const Login = () => {
       </div>
 
       <h3>
-        tài khoản admin: 123abc
-        <br /> mật khẩu: 0123456789
+        tài khoản admin: testeradmin05
+        <br /> mật khẩu: A123@321a
       </h3>
     </div>
   );

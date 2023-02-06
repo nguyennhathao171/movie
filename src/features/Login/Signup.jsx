@@ -19,11 +19,11 @@ const validateMessages = {
   required: "${label} chưa nhập",
   types: {
     email: "${label} không hợp lệ !",
-    number: "${label} bắt buộc phải là số !",
+  //   number: "${label} bắt buộc phải là số !",
   },
-  number: {
-    range: "${label} must be between ${min} and ${max}",
-  },
+  // number: {
+  //   range: "${label} must be between ${min} and ${max}",
+  // },
 };
 
 const Signup = () => {
@@ -122,7 +122,7 @@ const Signup = () => {
           <Input />
         </Form.Item>
 
-        <Form.Item
+        {/* <Form.Item
           name="soDt"
           label="Số điện thoại"
           rules={[
@@ -137,7 +137,7 @@ const Signup = () => {
               width: "100%",
             }}
           />
-        </Form.Item>
+        </Form.Item> */}
 
         <Form.Item
           wrapperCol={{
