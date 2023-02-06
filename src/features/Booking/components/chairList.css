@@ -1,0 +1,17 @@
+.chair {
+  padding: 0px;
+}
+.chair:hover {
+  background-color: black;
+  color: white !important ;
+}
+.chair.booked {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+.chair.booking {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
